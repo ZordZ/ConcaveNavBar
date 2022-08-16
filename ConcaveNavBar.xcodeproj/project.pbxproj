@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745FDF2128ABB8DA009BE3ED /* ConcaveNavBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745FDF1828ABB8DA009BE3ED /* ConcaveNavBar.framework */; };
+		745FDF2628ABB8DA009BE3ED /* ConcaveNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745FDF2528ABB8DA009BE3ED /* ConcaveNavBarTests.swift */; };
+		745FDF2728ABB8DA009BE3ED /* ConcaveNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 745FDF1B28ABB8DA009BE3ED /* ConcaveNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745FDF3728ABB9C7009BE3ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745FDF3628ABB9C7009BE3ED /* AppDelegate.swift */; };
+		745FDF3928ABB9C7009BE3ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745FDF3828ABB9C7009BE3ED /* SceneDelegate.swift */; };
+		745FDF3B28ABB9C7009BE3ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745FDF3A28ABB9C7009BE3ED /* ViewController.swift */; };
+		745FDF3E28ABB9C7009BE3ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745FDF3C28ABB9C7009BE3ED /* Main.storyboard */; };
+		745FDF4028ABB9C8009BE3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745FDF3F28ABB9C8009BE3ED /* Assets.xcassets */; };
+		745FDF4328ABB9C8009BE3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745FDF4128ABB9C8009BE3ED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745FDF2228ABB8DA009BE3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745FDF0F28ABB8DA009BE3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745FDF1728ABB8DA009BE3ED;
+			remoteInfo = ConcaveNavBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		745FDF1828ABB8DA009BE3ED /* ConcaveNavBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcaveNavBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		745FDF1B28ABB8DA009BE3ED /* ConcaveNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcaveNavBar.h; sourceTree = "<group>"; };
+		745FDF2028ABB8DA009BE3ED /* ConcaveNavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcaveNavBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		745FDF2528ABB8DA009BE3ED /* ConcaveNavBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcaveNavBarTests.swift; sourceTree = "<group>"; };
+		745FDF3428ABB9C7009BE3ED /* ConcaveNavBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcaveNavBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745FDF3628ABB9C7009BE3ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		745FDF3828ABB9C7009BE3ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		745FDF3A28ABB9C7009BE3ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		745FDF3D28ABB9C7009BE3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		745FDF3F28ABB9C8009BE3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745FDF4228ABB9C8009BE3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		745FDF4428ABB9C8009BE3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745FDF1528ABB8DA009BE3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF1D28ABB8DA009BE3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FDF2128ABB8DA009BE3ED /* ConcaveNavBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF3128ABB9C7009BE3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745FDF0E28ABB8DA009BE3ED = {
+			isa = PBXGroup;
+			children = (
+				745FDF1A28ABB8DA009BE3ED /* ConcaveNavBar */,
+				745FDF2428ABB8DA009BE3ED /* ConcaveNavBarTests */,
+				745FDF3528ABB9C7009BE3ED /* ConcaveNavBarExample */,
+				745FDF1928ABB8DA009BE3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		745FDF1928ABB8DA009BE3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745FDF1828ABB8DA009BE3ED /* ConcaveNavBar.framework */,
+				745FDF2028ABB8DA009BE3ED /* ConcaveNavBarTests.xctest */,
+				745FDF3428ABB9C7009BE3ED /* ConcaveNavBarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745FDF1A28ABB8DA009BE3ED /* ConcaveNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				745FDF1B28ABB8DA009BE3ED /* ConcaveNavBar.h */,
+			);
+			path = ConcaveNavBar;
+			sourceTree = "<group>";
+		};
+		745FDF2428ABB8DA009BE3ED /* ConcaveNavBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				745FDF2528ABB8DA009BE3ED /* ConcaveNavBarTests.swift */,
+			);
+			path = ConcaveNavBarTests;
+			sourceTree = "<group>";
+		};
+		745FDF3528ABB9C7009BE3ED /* ConcaveNavBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				745FDF3628ABB9C7009BE3ED /* AppDelegate.swift */,
+				745FDF3828ABB9C7009BE3ED /* SceneDelegate.swift */,
+				745FDF3A28ABB9C7009BE3ED /* ViewController.swift */,
+				745FDF3C28ABB9C7009BE3ED /* Main.storyboard */,
+				745FDF3F28ABB9C8009BE3ED /* Assets.xcassets */,
+				745FDF4128ABB9C8009BE3ED /* LaunchScreen.storyboard */,
+				745FDF4428ABB9C8009BE3ED /* Info.plist */,
+			);
+			path = ConcaveNavBarExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		745FDF1328ABB8DA009BE3ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FDF2728ABB8DA009BE3ED /* ConcaveNavBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		745FDF1728ABB8DA009BE3ED /* ConcaveNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745FDF2A28ABB8DA009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBar" */;
+			buildPhases = (
+				745FDF1328ABB8DA009BE3ED /* Headers */,
+				745FDF1428ABB8DA009BE3ED /* Sources */,
+				745FDF1528ABB8DA009BE3ED /* Frameworks */,
+				745FDF1628ABB8DA009BE3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcaveNavBar;
+			productName = ConcaveNavBar;
+			productReference = 745FDF1828ABB8DA009BE3ED /* ConcaveNavBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		745FDF1F28ABB8DA009BE3ED /* ConcaveNavBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745FDF2D28ABB8DA009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBarTests" */;
+			buildPhases = (
+				745FDF1C28ABB8DA009BE3ED /* Sources */,
+				745FDF1D28ABB8DA009BE3ED /* Frameworks */,
+				745FDF1E28ABB8DA009BE3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745FDF2328ABB8DA009BE3ED /* PBXTargetDependency */,
+			);
+			name = ConcaveNavBarTests;
+			productName = ConcaveNavBarTests;
+			productReference = 745FDF2028ABB8DA009BE3ED /* ConcaveNavBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		745FDF3328ABB9C7009BE3ED /* ConcaveNavBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745FDF5B28ABB9C8009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBarExample" */;
+			buildPhases = (
+				745FDF3028ABB9C7009BE3ED /* Sources */,
+				745FDF3128ABB9C7009BE3ED /* Frameworks */,
+				745FDF3228ABB9C7009BE3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcaveNavBarExample;
+			productName = ConcaveNavBarExample;
+			productReference = 745FDF3428ABB9C7009BE3ED /* ConcaveNavBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745FDF0F28ABB8DA009BE3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					745FDF1728ABB8DA009BE3ED = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					745FDF1F28ABB8DA009BE3ED = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					745FDF3328ABB9C7009BE3ED = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 745FDF1228ABB8DA009BE3ED /* Build configuration list for PBXProject "ConcaveNavBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745FDF0E28ABB8DA009BE3ED;
+			productRefGroup = 745FDF1928ABB8DA009BE3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745FDF1728ABB8DA009BE3ED /* ConcaveNavBar */,
+				745FDF1F28ABB8DA009BE3ED /* ConcaveNavBarTests */,
+				745FDF3328ABB9C7009BE3ED /* ConcaveNavBarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745FDF1628ABB8DA009BE3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF1E28ABB8DA009BE3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF3228ABB9C7009BE3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FDF4328ABB9C8009BE3ED /* LaunchScreen.storyboard in Resources */,
+				745FDF4028ABB9C8009BE3ED /* Assets.xcassets in Resources */,
+				745FDF3E28ABB9C7009BE3ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745FDF1428ABB8DA009BE3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF1C28ABB8DA009BE3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FDF2628ABB8DA009BE3ED /* ConcaveNavBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745FDF3028ABB9C7009BE3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FDF3B28ABB9C7009BE3ED /* ViewController.swift in Sources */,
+				745FDF3728ABB9C7009BE3ED /* AppDelegate.swift in Sources */,
+				745FDF3928ABB9C7009BE3ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745FDF2328ABB8DA009BE3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745FDF1728ABB8DA009BE3ED /* ConcaveNavBar */;
+			targetProxy = 745FDF2228ABB8DA009BE3ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		745FDF3C28ABB9C7009BE3ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745FDF3D28ABB9C7009BE3ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		745FDF4128ABB9C8009BE3ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745FDF4228ABB9C8009BE3ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		745FDF2828ABB8DA009BE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		745FDF2928ABB8DA009BE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		745FDF2B28ABB8DA009BE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745FDF2C28ABB8DA009BE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		745FDF2E28ABB8DA009BE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745FDF2F28ABB8DA009BE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		745FDF5C28ABB9C8009BE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConcaveNavBarExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745FDF5D28ABB9C8009BE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConcaveNavBarExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZordzUnion.ConcaveNavBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745FDF1228ABB8DA009BE3ED /* Build configuration list for PBXProject "ConcaveNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745FDF2828ABB8DA009BE3ED /* Debug */,
+				745FDF2928ABB8DA009BE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745FDF2A28ABB8DA009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745FDF2B28ABB8DA009BE3ED /* Debug */,
+				745FDF2C28ABB8DA009BE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745FDF2D28ABB8DA009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745FDF2E28ABB8DA009BE3ED /* Debug */,
+				745FDF2F28ABB8DA009BE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745FDF5B28ABB9C8009BE3ED /* Build configuration list for PBXNativeTarget "ConcaveNavBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745FDF5C28ABB9C8009BE3ED /* Debug */,
+				745FDF5D28ABB9C8009BE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745FDF0F28ABB8DA009BE3ED /* Project object */;
+}
